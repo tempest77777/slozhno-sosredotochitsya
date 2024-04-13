@@ -200,6 +200,10 @@
   color: var(--text-decor-color);
 }
 
+.title-decor_test {
+  margin: -20px 0 0 0;
+}
+
 @media (min-width: 768px) {
   .header {
     grid-template-areas:
