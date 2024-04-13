@@ -226,6 +226,7 @@
   }
 
   .header__logo {
+    position: relative;
     right: 20px;
   }
   .main {
