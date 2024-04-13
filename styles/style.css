@@ -67,7 +67,7 @@
 .logo {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
-  line-height: 95.7px;
+  line-height: 82.5%;
   color: var(--logo-color);
 }
 
@@ -200,9 +200,7 @@
   color: var(--text-decor-color);
 }
 
-.title-decor_test {
-  margin: -20px 0 0 0;
-}
+
 
 @media (min-width: 768px) {
   .header {
