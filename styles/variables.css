@@ -7,5 +7,5 @@
   --text-decor-color: var(--bg-color);
   --logo-color: #db00ff;
   --logo-shadow-color: #ff0070;
-  --cover-image: url(../images-cover-image-dark.png)
+  --cover-image: url(../images-cover-image-dark.png);
 }
