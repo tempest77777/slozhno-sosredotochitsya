@@ -147,10 +147,7 @@
   font-size: 18px;
   font-weight: 700;
 }
-.title-decor {
-  background-color: var(--base-color);
-  color: var(--text-decor-color);
-}
+
 
 .card__text {
   font-size: 18px;
@@ -250,7 +247,7 @@
     gap: 20px;
   }
   .gallery__item:nth-child(1) {
-    grid-column: 1 / 2;
+    grid-column: 1 / 4;
   }
 
   .gallery__item:nth-child(2) {
