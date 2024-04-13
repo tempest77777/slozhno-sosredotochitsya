@@ -137,6 +137,12 @@
   grid-area: text;
 }
 
+.section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .card {
   gap: 10px;
   display: flex;
