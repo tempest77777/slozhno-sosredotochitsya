@@ -7,10 +7,27 @@
 .page.theme_light {
   --bg-color: #fff1f7;
   --accent-color: #ff8dcb;
-  --base-color: var(--text-color);
+  --rec-color: transparent;
+  --bg-image: url("../images/cover-image-light.png");
+  --titles-color: #ffc2e6;
+  --main-text-color: #353430;
   --text-color: #353430;
-  --text-decor-color: var(--text-color);
-  --logo-color: #ffc2e6;
-  --logo-shadow-color: #ff0070;
-  --cover-image: url(../images/cover-image-light.png);
+  --hover-color: rgba(50, 49, 45, 0.4);
+  --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --heading-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --bg-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+    --titles-color: #ffc2e6;
+    --rec-color: transparent;
+    --main-text-color: #353430;
+    --text-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.4);
+    --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --heading-color: #353430;
+  }
 }
